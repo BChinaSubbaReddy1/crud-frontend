@@ -17,7 +17,7 @@ function App() {
     setProduct({ ...product, [e.target.name]: e.target.value });
   };
 //const BASE_URL = 'http://localhost:9092/springapp1';
-const base_URL='http://localhost:5173/';
+const base_URL='http://localhost:8081/';
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
